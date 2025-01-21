@@ -1,0 +1,44 @@
+.body-transporte{
+    margin: 5% 0% 0% 0%;
+}
+
+input.form-control{
+    border-radius: 10px!important;
+    border: 1px solid #212529; /* Añade un borde negro al input */
+    margin-bottom: 5px; /* Margen inferior para separación */
+}
+
+span.help-block{
+    padding: 10px;
+}
+
+.valor{
+    text-align: right;
+    font-weight: bold;
+}
+
+.body-text-info{
+    margin: 2% 10% 2% 10%;
+}
+
+.horizontal-line-info {
+    display: block;
+    border-top: 2px solid #C1C1C1;
+    margin: 0% 60% 2% 0%;
+}
+
+.button-link-white {
+    display: inline-block;
+    padding: 5px 35px;
+    text-decoration: none;
+    color: #212529;
+    background-color: #FFF;
+    border: 3px solid #212529;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button-link-white:hover {
+    background-color: #212529
+    color: #FFF;
+}

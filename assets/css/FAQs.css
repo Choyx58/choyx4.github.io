@@ -1,0 +1,40 @@
+.container-banner-FAQS { 
+	width: 100%;
+    height: 500px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+	 background-image: url(https://media.gq.com.mx/photos/609084d2bc8fb85784f7378f/master/pass/Sudaderas%20de%20hombre%206.jpg);
+}
+
+#accordionFlushExample .accordion-collapse {
+    display: flex!important;
+    flex-direction: column!important;
+
+}
+
+#accordionFlushExample .accordion-body {
+    flex-grow: 1;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+
+}
+.accordion-button {        
+     
+        border-radius: 10px!important; 
+}
+#leyendaOpcion1 .accordion-button:not(.collapsed)::before {
+    color: white !important; 
+}
+#leyendaOpcion1 .accordion-button:not(.collapsed)::after {
+    color: white!important; 
+}
+#leyendaOpcion1 .accordion-button.collapsed::after {
+    color: white !important; 
+}
+#leyendaOpcion1 .accordion-button:not(.collapsed)::after {
+    filter: brightness(0) invert(1);
+}
+

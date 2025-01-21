@@ -1,0 +1,58 @@
+.container-banner { 
+	width: 100%;
+    height: 500px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+	background-image: url(https://wallpapers.com/images/featured/hoodie-hxb4w6xu1li4pd4v.jpg);
+}
+
+.body-transporte{
+    margin: 5% 0% 0% 0%;
+}
+
+
+.body-text-info{
+    margin: 2% 10% 2% 10%;
+}
+
+.horizontal-line-info {
+    display: block;
+    border-top: 2px solid #C1C1C1;
+    margin: 0% 60% 2% 0%;
+}
+
+.button-link-white {
+    display: inline-block;
+    padding: 5px 35px;
+    text-decoration: none;
+    color: #B71445;
+    background-color: #FFF;
+    border: 3px solid #B71445;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button-link-white:hover {
+    background-color: #B71145;
+    color: #FFF;
+}
+
+    .notification {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .notification.show {
+        opacity: 1;
+        visibility: visible;
+    }

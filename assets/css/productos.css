@@ -1,0 +1,88 @@
+.vl-productos {
+    border-left: 2px solid #ccc;
+    height: 450px; 
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+.button-link-large {
+    display: inline-block;
+    padding: 5px 75px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #212529;
+    border: 3px solid #212529;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button-link-large:hover {
+    background-color: #fff;
+    color: #212529;
+}
+
+.button-link-white-large {
+    display: inline-block;
+    padding: 5px 75px;
+    text-decoration: none;  
+    color: black;
+    background-color: #FFF;
+    border: 3px solid #212529;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button-link-white-large:hover {
+    background-color: #212529;
+    color: #FFF;
+}
+
+   @media (max-width: 767.98px) {
+    .mini-img {
+        margin: 0 auto; 
+        max-width: 150px;
+    }
+}
+
+.btn-equal-width {
+    width: 100px;
+}
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+
+}
+
+
+.btn-circle::after {
+    border-radius: 50%;
+}
+
+.btn-circle.active {
+    outline: 2px solid black; 
+}
+
+
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilos para el contorno negro cuando está seleccionado */
+.btn-check:checked + .btn-circle {
+    outline: 2px solid black;
+}
+
+#tallasModal{
+    z-index: 10000;
+}

@@ -1,0 +1,52 @@
+.custom-card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-banner-politicas { 
+    width: 100%;
+    height: 500px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(https://www.bhmpics.com/downloads/hoodie-wallpaper/66.hoodie-anonymus-boy-sitting-aside-4k-57.jpg);
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    position: relative;
+}
+
+.icon-container i {
+    font-size: 3rem;
+    transition: color 0.3s ease;
+}
+
+.icon-container::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border-radius: 50%;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+    transform: scale(0);
+}
+
+.icon-container:hover::before {
+    border-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+}
+
+.icon-container i:hover {
+    color: #212529; /* Cambiar el color deseado */
+    -webkit-mask-image: none;
+    mask-image: none;
+    background-color: #212529; /* Cambiar el color deseado para rellenar el icono */
+    transition: background-color 0.3s ease;
+}

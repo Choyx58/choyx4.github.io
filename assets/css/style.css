@@ -1,0 +1,249 @@
+    
+::-webkit-scrollbar {
+    display: none;
+} 
+
+
+/*Aqui Inicia el Slider*/
+
+.carousel-inner .carousel-item img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+    .carousel-control-next {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+.carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+.slider-container {
+    position: relative;
+}
+
+/*Aqui Termina el Slider*/
+
+.body-text{
+    margin: 5% 10% 10% 10%;
+}
+
+
+.button-link {
+    display: inline-block;
+    padding: 5px 35px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #B71445;
+    border: 3px solid #B71445;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #fff;
+    color: #B71445;
+}
+
+
+
+.horizontal-line-shirt{
+    display: block;
+    border-top: 2px solid #C1C1C1;
+    margin: 0% 50% 2% 0%;
+}
+
+
+.text-content p{
+    text-align: justify;
+        line-height: 1.8;
+}
+
+.horizontal-line {
+    display: block;
+    border-top: 2px solid #C1C1C1;
+    margin: 0% 0% 2% 0%;
+}
+
+.menu-submenu{
+    margin: 0% 0% 2% 0%;
+}
+
+
+.card{
+    transition: transform 0.3s ease;
+}
+
+.card.elevate{
+    transform: translateY(-10px);
+}
+
+
+.custom-margin-top {
+  margin-top: 50%; 
+}
+
+
+.horizontal-line-card {
+    border-color: #B71445;
+    border-width: 4px;
+    height: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 20%;
+    background-color: #B71445;
+    margin-bottom: 5px;
+}
+
+#infoModal {
+    z-index: 10000;
+}
+
+#heart-icon {
+    color: black; 
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#heart-icon:hover {
+    background-color: black;
+    color: white;
+}
+
+.vl {
+    border-left: 2px solid #ccc;
+    height: 300px; 
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .vl {
+    display: none;
+  }
+}
+
+.shadow-card {
+    box-shadow: 0 0.9rem 7rem rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+/* Personalización del botón close */
+.btn-close {
+    font-size: 1rem; 
+    font-weight: bold; 
+    border: 2px solid black;
+    color: black;
+    border-radius: 50%;
+    background-color: black ;
+}
+
+.verMas {
+    position: relative;
+    transition: top 0.1s ease-in-out; 
+}
+
+.verMas:hover {
+    top: 5px;
+}
+
+.verMas::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.8s ease-in-out;
+    position: absolute;
+    bottom: -5px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.verMas:hover::after {
+    width: 50%;
+}
+
+.modal-body{
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 5px 35px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #212529;
+    border: 3px solid #212529;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #fff;
+    color: #212529;
+}
+
+.button-link-white {
+    display: inline-block;
+    padding: 5px 35px;
+    text-decoration: none;
+    color: black;
+    background-color: #FFF;
+    border: 3px solid #212529;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.button-link-white:hover {
+    background-color: #212529;
+    color: #FFF;
+}
+
+.favTable tr td:nth-child(3) {
+    border-left: 2px solid rgb(185, 185, 185);
+    padding-left: 20px;
+}
+
+.fuenteFav tr{
+    font-size: 1.2rem;
+}
+
+.favTableProducto tr td:nth-child(4) {
+    width: 20%; /* Puedes ajustar este valor según tus necesidades */
+    height: 80%;
+}
+
+.accordion-modified:not(.collapsed) {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: transparent;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    border-color: transparent;
+    border: 0px;
+}
+
+.accordion-modified2{
+    border-color: transparent;
+    border: 0px;
+    background-color: transparent;
+}
+
+.bordes-Form input{
+    border-color: black;
+}
+
+.labels-Form label{
+    font-size: 1.1rem;
+    font-weight: 200px;
+}
