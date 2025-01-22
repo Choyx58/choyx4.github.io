@@ -7,9 +7,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php 
-	include('conexion1.php');
-?>
 <title>Fashion Club an Ecommerce Online Shopping Category  Flat Bootstrap responsive Website Template | Home :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -28,24 +25,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 </head>
-<?php 
-@session_start();
-if(!empty ($_SESSION['miSession'])){	
-?>
-<div class="shell">
-  <p class="right"><?php echo $_SESSION['miSession']['nombre']?> <a href="usuarios2/cerrarsession.php">[Cerrar Session]</a></a></p>
-  </p>
-<?php }else{?>
-<div class="shell">
-  <p class="right"><a href="usuarios2/pidodatos2.php">Ingresar</a> <span>|</span> <a href="usuarios2/register.php">Registrarse</a></p>
-  </p>
-<?php }?>
-
 <body>
 <div class="header-top-w3layouts">
 	<div class="container">
 		<div class="col-md-6 logo-w3">
-			<a href="index.php"><img src="images/logo3.png" alt=" " /><h1> Bo-Quet<span></span></h1></a>
+			<a href="index.html"><img src="images/logo3.png" alt=" " /><h1> Bo-Quet<span></span></h1></a>
 		</div>
 		<div class="col-md-6 phone-w3l">
 			<ul>
@@ -70,7 +54,7 @@ if(!empty ($_SESSION['miSession'])){
 				</div> 
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav ">
-						<li class=" active"><a href="index.php" class="hyper "><span>Home</span></a></li>	
+						<li class=" active"><a href="index.html" class="hyper "><span>Home</span></a></li>	
 						<li class="dropdown ">
 							<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span> Tipo de evento <b class="caret"></b></span></a>
 								<ul class="dropdown-menu multi">
@@ -78,23 +62,23 @@ if(!empty ($_SESSION['miSession'])){
 										<div class="col-sm-4">
 											<ul class="multi-column-dropdown">
 			
-												<li><a href="productos2/conciertosyfestivales.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Conciertos y festivales</a></li>
-												<li><a href="productos2/teatroycultura.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Teatro y cultura</a></li>
-												<li><a href="productos2/deportes.php"> <i class="fa fa-angle-right" aria-hidden="true"></i>Deportes</a></li>
+												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Conciertos y festivales</a></li>
+												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Teatro y cultura</a></li>
+												<li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i>Deportes</a></li>
 										
 											</ul>
 										
 										</div>
 										<div class="col-sm-4">
 											<ul class="multi-column-dropdown">
-												<li><a href="productos2/familiares.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Familiares</a></li>
-												<li><a href="productos2/especiales.php"><i class="fa fa-angle-right" aria-hidden="true"></i>Especiales</a></li>
+												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Familiares</a></li>
+												<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Especiales</a></li>
 
 										
 											</ul>						
 										</div>
 										<div class="col-sm-4 w3l">
-											<a href="productos2/conciertosyfestivales.php"><img src="images/menu3.jpg" class="img-responsive" alt=""></a>
+											<a href="#"><img src="images/menu3.jpg" class="img-responsive" alt=""></a>
 										</div>
 										<div class="clearfix"></div>
 									</div>	
@@ -132,9 +116,9 @@ if(!empty ($_SESSION['miSession'])){
 									</div>	
 								</ul>
 						</li>-->
-						<li><a href="usuarios2/micuenta2.php" class="hyper"><span>mi cuenta</span></a></li>
-						<li><a href="informacion/about.php" class="hyper"><span>Acerca de</span></a></li>
-						<li><a href="informacion/contact.php" class="hyper"><span>Contactanos</span></a></li>
+						<li><a href="#" class="hyper"><span>mi cuenta</span></a></li>
+						<li><a href="#" class="hyper"><span>Acerca de</span></a></li>
+						<li><a href="#" class="hyper"><span>Contactanos</span></a></li>
 					</ul>
 				</div>
 			</nav>
@@ -154,7 +138,7 @@ if(!empty ($_SESSION['miSession'])){
 				});
 				</script>
 		<div class="col-md-4 search-agileinfo">
-			<form action="productos2/TodoEventos.php" method="post">
+			<form action="#" method="post">
 				<input type="search" name="buscar" id="buscar" placeholder="Buscar un evento..." required="">
 				<button type="submit" class="btn btn-default search" aria-label="Left Align">
 					<i class="fa fa-search" aria-hidden="true"> </i>
@@ -163,7 +147,7 @@ if(!empty ($_SESSION['miSession'])){
 		</div>
 		<div class="col-md-1 cart-wthree">
 			<div class="cart">
-				<form action="carrito2/carrito2.php" method="post" class="last"> 
+				<form action="#" method="post" class="last"> 
 					<!--<input type="hidden" name="cmd" value="_cart" />
 					<input type="hidden" name="display" value="1" />-->
 					<button class="w3view-cart" type="submit" name="submit" value=""></a><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
@@ -178,33 +162,33 @@ if(!empty ($_SESSION['miSession'])){
 		<h2>Bienvenido a</h2>
 		<h3>Bo-<span>Quet</span></h3>
 		<p>Porque los sucesos que te marcan ocurren una sola vez en la vida. Estamos aquí para mejorar tu experiencia. </p>
-		<a href="informacion/about.php">Seguir Leyendo</a>
+		<a href="#">Seguir Leyendo</a>
 	</div>
 </div>
 <div class="banner-bootom-w3-agileits">
 	<div class="container">
 		<div class="col-md-5 bb-grids bb-left-agileits-w3layouts">
-			<a href="productos2/conciertosyfestivales.php"><div class="bb-left-agileits-w3layouts-inner">
+			<a href="#"><div class="bb-left-agileits-w3layouts-inner">
 					<h3>CASI SE ACABAN</h3>
 					<h4>capacidad al<span>90%</span></h4>
 			</div></a>
 		</div>
 		<div class="col-md-4 bb-grids bb-middle-agileits-w3layouts">
-			<a href="productos2/teatroycultura.php"><div class="bb-middle-top">
+			<a href="#"><div class="bb-middle-top">
 				<h3>ULTIMAS FECHAS</h3>
 				<h4><span>$200</span></h4>
 			</div></a>
-			<a href="productos2/familiares.php"><div class="bb-middle-bottom">
+			<a href="#"><div class="bb-middle-bottom">
 				<h3>ULTIMA GIRA</h3>
 				<h4>Despidelos este<span>SABADO</span></h4>
 			</div></a>
 		</div>
 		<div class="col-md-3 bb-grids bb-right-agileits-w3layouts">
-			<a href="productos2/deportes.php"><div class="bb-right-top">
+			<a href="#"><div class="bb-right-top">
 				<h3>APROVECHA</h3>
 				<h4>el<span>50%</span></h4>
 			</div></a>
-			<a href="productos2/especiales.php"><div class="bb-right-bottom">
+			<a href="#"><div class="bb-right-bottom">
 				<h3>SOLO ESTE FIN</h3>
 				<h4>dinosaurios en<span>3D</span></h4>
 			</div></a>
@@ -227,7 +211,7 @@ if(!empty ($_SESSION['miSession'])){
 				<div class="resp-tabs-container">
 					<div class="tab-1 resp-tab-content">
 						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 						<input name="id_evento" type="hidden" value="1" />
 							<div class="product-img">
 							<img src="images/mv1.jpg" alt="" />
@@ -239,7 +223,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>10/may/2023</h5>
 					</div>
 				<div class="col-md-3 top-product-grids tp2">
-					<form action="productos2/compraboleto.php" method="post">	
+					<form action="#" method="post">	
 					<input name="id_evento1" type="hidden" value="2" />
 						<div class="product-img">
 						<img src="images/mv2.jpg" alt="" />
@@ -252,7 +236,7 @@ if(!empty ($_SESSION['miSession'])){
 						</div>
 						
 						<div class="col-md-3 top-product-grids tp3">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento2" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv3.jpg" alt="" />
@@ -264,7 +248,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>12/may/2023</h5>						
 						</div>
 						<div class="col-md-3 top-product-grids tp4">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento3" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv4.jpg" alt="" />
@@ -279,7 +263,7 @@ if(!empty ($_SESSION['miSession'])){
 					</div>
 				<div class="tab-1 resp-tab-content">
 					<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
-					<form action="productos2/compraboleto.php" method="post">	
+					<form action="#" method="post">	
 				<input name="id_evento4" type="hidden" value="1" />
 				<div class="product-img">
 					<img src="images/mv5.jpg" alt="" />
@@ -291,7 +275,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>14/may/2023</h5>
 						</div>
 						<div class="col-md-3 top-product-grids tp2">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento5" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv6.jpg" alt="" />
@@ -303,7 +287,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>15/may/2023</h5>
 						</div>
 						<div class="col-md-3 top-product-grids tp3">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento6" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv7.jpg" alt="" />
@@ -315,7 +299,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>16/may/2023</h5>						
 						</div>
 						<div class="col-md-3 top-product-grids tp4">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento7" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv8.jpg" alt="" />
@@ -331,7 +315,7 @@ if(!empty ($_SESSION['miSession'])){
 					</div>
 					<div class="tab-1 resp-tab-content">
 						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento8" type="hidden" value="1" />
 				<div class="product-img">
 					<img src="images/mv9.jpg" alt="" />
@@ -343,7 +327,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>18/may/2023</h5>
 						</div>
 						<div class="col-md-3 top-product-grids tp2">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento9" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv10.jpg" alt="" />
@@ -355,7 +339,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>19/may/2023</h5>
 						</div>
 						<div class="col-md-3 top-product-grids tp3">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento10" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv11.jpg" alt="" />
@@ -367,7 +351,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>20/may/2023</h5>						
 						</div>
 						<div class="col-md-3 top-product-grids tp4">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento11" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv12.jpg" alt="" />
@@ -384,7 +368,7 @@ if(!empty ($_SESSION['miSession'])){
 					</div>		
 					<div class="tab-1 resp-tab-content">
 						<div class="col-md-3 top-product-grids tp1 animated wow slideInUp" data-wow-delay=".5s">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento12" type="hidden" value="1" />
 				<div class="product-img">
 					<img src="images/mv13.jpg" alt="" />
@@ -396,7 +380,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>22/may/2023</h5>
 						</div>
 						<div class="col-md-3 top-product-grids tp2">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento13" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv14.jpg" alt="" />
@@ -408,7 +392,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>23/may/2023</h5>
 						</div>
 						<div class="col-md-3 top-product-grids tp3">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento14" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv15.jpg" alt="" />
@@ -420,7 +404,7 @@ if(!empty ($_SESSION['miSession'])){
 							<h5>24/may/2023</h5>						
 						</div>
 						<div class="col-md-3 top-product-grids tp4">
-						<form action="productos2/compraboleto.php" method="post">	
+						<form action="#" method="post">	
 				<input name="id_evento15" type="hidden" value="2" />
 				<div class="product-img">
 					<img src="images/mv16.jpg" alt="" />
@@ -595,7 +579,7 @@ if(!empty ($_SESSION['miSession'])){
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grids fgd1">
-		<a href="index.php"><img src="images/logo3.png" alt=" " /><h3>Bo-Quet<span></span></h3></a>
+		<a href="#"><img src="images/logo3.png" alt=" " /><h3>Bo-Quet<span></span></h3></a>
 		<ul>
 			<li>Avenida Sinaloa, #1500,</li>
 			<li>Mazatlán, Sinaloa.</li>
@@ -609,27 +593,27 @@ if(!empty ($_SESSION['miSession'])){
 		<div class="col-md-3 footer-grids fgd2">
 			<h4>Información</h4> 
 			<ul>
-				<li><a href="informacion/contact.php">Contactanos</a></li>
+				<li><a href="#">Contactanos</a></li>
 				<!--<li><a href="icons.html">Web Icons</a></li>
 				<li><a href="typography.html">Typography</a></li>-->
-				<li><a href="informacion/faq.php">Preguntas frecuentes</a></li>
+				<li><a href="#">Preguntas frecuentes</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd3">
 			<h4>Eventos</h4> 
 			<ul>
-				<li><a href="productos2/conciertosyfestivales.php">Conciertos</a></li>
-				<li><a href="productos2/teatroycultura.php">Obras de teatro</a></li>
-				<li><a href="productos2/deportes.php">Deportes</a></li>
-				<li><a href="productos2/especiales.php">Especiales</a></li>
+				<li><a href="#">Conciertos</a></li>
+				<li><a href="#">Obras de teatro</a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#">Especiales</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grids fgd4">
 			<h4>Mi cuenta</h4> 
 			<ul>
 				
-				<li><a href="usuarios2/pidodatos2.php">ingresar</a></li>
-				<li><a href="usuarios2/register.php">Registrarse</a></li>
+				<li><a href="#">ingresar</a></li>
+				<li><a href="#">Registrarse</a></li>
 			</ul>
 		</div>
 		<div class="clearfix"></div>
